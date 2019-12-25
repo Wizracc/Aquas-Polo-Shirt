@@ -6,7 +6,7 @@ import sqlite3
 from config import discord_key, debug
 from tools import *
 
-just_grynn_ID = 91250749383655424
+just_grynn_ID = 0 # This was my discord ID. Just so the bot would listen to only me for some commands
 client = discord.Client()
 #seconds_in_day = 60 * 60 * 24
 
