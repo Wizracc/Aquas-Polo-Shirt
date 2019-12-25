@@ -139,7 +139,7 @@ async def download_emoji(server, emoji):
 
 @client.event
 async def on_message(message):
-  if(message.author.id == 91250749383655424):
+  if(message.author.id == 0): # Replace 0 with your discord ID
     if(message.content.startswith("!purge_info")):
       try:
         async with message.channel.typing():
